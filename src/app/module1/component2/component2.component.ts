@@ -3,7 +3,7 @@ import { Service1 } from '../service1.service';
 
 @Component({
   selector: 'app-component2',
-  providers: [ Service1 ],
+  //providers: [ Service1 ],
   templateUrl: './component2.component.html',
   styleUrls: ['./component2.component.css']
 })
